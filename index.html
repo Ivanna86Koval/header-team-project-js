@@ -5,8 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bookshelf</title>
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <header><a href="./index.html"</header>
+    <header>
+      <nav>
+        <a href="./index.html">
+          <img src="./images/logo.svg" alt="site logo" />
+        </a>
+        <a href="./index.html">
+          <img src="./images/Bookshelf.svg" alt="site name" />
+        </a>
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">Shopping list</a></li>
+        </ul>
+      </nav>
+      <button
+        class="sign-up-button"
+        type="button"
+        data-modal-open
+        aria-label="sign in"
+      >
+        <span class="sign-up-button_text">Sign up</span>
+        <svg class="sign-up-button_icon" width="20" height="20">
+          <use href="./images/icons.svg#golder-arrow-right"></use>
+        </svg>
+      </button>
+    </header>
   </body>
 </html>
